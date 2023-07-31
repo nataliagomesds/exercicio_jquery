@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    background-color: rgb(189, 222, 222);
+}
+
+#formulario {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+} 
+
+input, button {
+    font-size: 30px;
+    background-color: #fff;
+    border: none;
+    padding: 8px;
+}
+
+button {
+    background-color:  rgb(153, 150, 150);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+ol {
+    font-size: 30px;
+    cursor: pointer;
+    list-style-type: square;
+    
+}
